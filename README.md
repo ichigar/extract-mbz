@@ -1,7 +1,16 @@
-extract-mbz
-===========
+# extract-mbz
 
 Extract content from Moodle backup files (.mbz)
+
+## TODO
+
+* Dar estructura de paquete
+* Documentación con mkdocs
+* tests con pytest
+
+## Referencias
+
+* <https://realpython.com/pypi-publish-python-package/>
 
 Background: 
 Working on a request from a professor I was surprised to find that there wasn't yet a tool to extract a Moodle backup archive, much as bFree does for Blackboard archives. After finding only this proof of concept python script on the web (http://www.reades.com/2012/11/29/mb-archives/) I figured I'd take a stab at it. My initial release efforts (I've used it for a few extract requests already) are here. Documentation is below and my python script is attached. 
